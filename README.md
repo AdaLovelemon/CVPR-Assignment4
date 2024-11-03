@@ -12,7 +12,7 @@ The repository is all about Assignment4 of the CVPR course at Xi'an Jiaotong Uni
 
 ### Dataset
 
-You can download Caltech256 Dataset from this link[Caltech Datasets](http://www.vision.caltech.edu/datasets/)
+You can download Caltech256 Dataset from this link [Caltech Datasets](http://www.vision.caltech.edu/datasets/)
 
 ### Installation
 
