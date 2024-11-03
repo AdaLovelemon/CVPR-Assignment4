@@ -8,6 +8,10 @@ The repository is all about Assignment4 of the CVPR course at Xi'an Jiaotong Uni
 - Model Training: Train machine learning models for image classification
 - Evaluation: Evaluate the performance of the trained models
 
+## Visualization
+
+Our Visualized Results are displayed on W&B. Here is the link [adalovelemon-xi-an-jiaotong-university-](https://wandb.ai/adalovelemon-xi-an-jiaotong-university-/CVPR-Assignment4).
+
 ## Preparations
 
 ### Dataset
