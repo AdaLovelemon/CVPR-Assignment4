@@ -1,0 +1,7 @@
+API_key: 'YOUR_API_KEY'
+project: CVPR-Assignment4
+entity: adalovelemon-xi-an-jiaotong-university-
+name: 'You name it'
+tags: ['Assignment4', 'Caltech256', 'ViT']
+notes: 'Image Classification on Caltech256'
+dir: path/to/your/project

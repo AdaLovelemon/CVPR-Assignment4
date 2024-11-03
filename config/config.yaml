@@ -1,0 +1,48 @@
+Dataset:
+  dataset_name: Caltech256
+
+  Caltech256:
+    PATH: Your/Path/To/Caltech256
+    batch_size: 128
+    image_size: 224
+    in_channels: 3
+    num_classes: 256
+    train_ratio: 0.7
+
+Model:
+  model_name: ResNet
+  save_directory: ckpt
+  retrain: False
+
+  ViT:
+    embed_dim: 512
+    patch_size: 8
+    num_heads: 8
+    num_blocks: 12
+    weight_init: kaiming
+    dropout_rate: 0.3
+    save_model_name: ViT.pth
+  
+  ResNet:
+    ResNet_type: ResNet152
+    weight_init: kaiming
+    dropout_rate: 0.4
+    save_model_name: ResNet.pth
+
+Training:
+  lr: 0.01
+  num_epoch: 300
+  optimizer: Adam
+  criterion: CrossEntropyLoss
+  momentum: 0.9
+  weight_decay: 0.001 # L2 regularization
+  lr_scheduler: StepLR
+  step_size: 10
+  gamma: 0.1
+
+    
+Visualization:
+  wandb: False
+  matplotlib: True
+  save_fig_directory: figures
+  

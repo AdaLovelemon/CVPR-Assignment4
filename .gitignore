@@ -1,0 +1,15 @@
+# Ignore figures directory
+figures/
+
+# Ignore ckpt directory
+ckpt/
+
+# Ignore wandb directory
+wandb/
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore specific file
+test.py
