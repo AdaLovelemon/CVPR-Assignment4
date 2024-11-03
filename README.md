@@ -8,7 +8,13 @@ The repository is all about Assignment4 of the CVPR course at Xi'an Jiaotong Uni
 - Model Training: Train machine learning models for image classification
 - Evaluation: Evaluate the performance of the trained models
 
-## Installation
+## Preparations
+
+### Dataset
+
+You can download Caltech256 Dataset from this link[Caltech Datasets](http://www.vision.caltech.edu/datasets/)
+
+### Installation
 
 To install the required packages, use the following command:
 
